@@ -1,9 +1,11 @@
-# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+hygiene:
+  name: "Higiene Personal"
+  description: "Productos de cuidado personal orgánicos y sostenibles"
 
-one:
-  name: MyString
-  description: MyText
+hair_care:
+  name: "Cuidado Capilar"
+  description: "Productos para el cuidado del cabello, naturales y orgánicos"
 
-two:
-  name: MyString
-  description: MyText
+sustainable_utensils:
+  name: "Utensilios Sostenibles"
+  description: "Artículos reutilizables y ecológicos para uso diario"

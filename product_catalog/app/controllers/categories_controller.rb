@@ -29,8 +29,12 @@ class CategoriesController < ApplicationController
 
   def destroy
     category = Category.find(params[:id])
-    category.destroy
-    render json: { message: 'Category deleted' }, status: :ok
+    if category.products.any?
+      render json: { error: 'Cannot delete category with associated products' }, status: :unprocessable_entity
+    else
+      category.destroy
+      render json: { message: 'Category deleted' }, status: :ok
+    end
   end
 
   private
