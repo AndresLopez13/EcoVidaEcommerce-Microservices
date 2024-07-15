@@ -1,0 +1,11 @@
+hygiene:
+  name: "Higiene Personal"
+  description: "Productos de cuidado personal orgánicos y sostenibles"
+
+hair_care:
+  name: "Cuidado Capilar"
+  description: "Productos para el cuidado del cabello, naturales y orgánicos"
+
+sustainable_utensils:
+  name: "Utensilios Sostenibles"
+  description: "Artículos reutilizables y ecológicos para uso diario"

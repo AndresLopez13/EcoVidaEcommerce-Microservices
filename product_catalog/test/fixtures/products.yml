@@ -1,0 +1,23 @@
+bamboo_toothbrush:
+  name: "Cepillo de Dientes de Bambú"
+  description: "Cepillo de dientes ecológico hecho de bambú biodegradable"
+  price: 5.99
+  category: hygiene
+
+organic_cream:
+  name: "Crema Hidratante Orgánica"
+  description: "Crema hidratante facial hecha con ingredientes 100% orgánicos"
+  price: 24.99
+  category: hygiene
+
+# reusable_straws:
+#   name: "Set de Sorbetes Reutilizables"
+#   description: "Pack de 4 sorbetes de acero inoxidable con cepillo de limpieza"
+#   price: 12.99
+#   category: sustainable_utensils
+
+lavender_shampoo:
+  name: "Shampoo Orgánico de Lavanda"
+  description: "Shampoo natural con esencia de lavanda, sin sulfatos ni parabenos"
+  price: 18.99
+  category: hair_care
