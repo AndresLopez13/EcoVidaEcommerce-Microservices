@@ -1,18 +1,18 @@
 class ProductsController < ApplicationController
   def index
-    products = Product.all
-    render json: products, status: :ok
+    products = Product.with_attached_image.all
+    render json: products, methods: [:image_url], status: :ok
   end
 
   def show
-    product = Product.find(params[:id])
-    render json: product, status: :ok
+    product = Product.with_attached_image.find(params[:id])
+    render json: product, methods: [:image_url], status: :ok
   end
 
   def create
     product = Product.new(product_params)
     if product.save
-      render json: product, status: :created
+      render json: product, methods: [:image_url], status: :created
     else
       render json: { errors: product.errors.full_messages }, status: :unprocessable_entity
     end
@@ -21,7 +21,7 @@ class ProductsController < ApplicationController
   def update
     product = Product.find(params[:id])
     if product.update(product_params)
-      render json: product, status: :ok
+      render json: product, methods: [:image_url], status: :ok
     else
       render json: { errors: product.errors.full_messages }, status: :unprocessable_entity
     end
@@ -36,6 +36,6 @@ class ProductsController < ApplicationController
   private
 
   def product_params
-    params.require(:product).permit(:name, :description, :price, :category_id)
+    params.require(:product).permit(:name, :description, :price, :category_id, :image)
   end
 end
