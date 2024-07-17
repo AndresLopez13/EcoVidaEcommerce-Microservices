@@ -1,12 +1,12 @@
 class ProductsController < ApplicationController
   def index
-    products = Product.with_attached_image.all
-    render json: products, methods: [:image_url], status: :ok
+    products = Product.with_attached_image.includes(:category).all
+    render json: products, status: :ok
   end
 
   def show
-    product = Product.with_attached_image.find(params[:id])
-    render json: product, methods: [:image_url], status: :ok
+    product = Product.with_attached_image.includes(:category).find(params[:id])
+    render json: product, status: :ok
   end
 
   def create
