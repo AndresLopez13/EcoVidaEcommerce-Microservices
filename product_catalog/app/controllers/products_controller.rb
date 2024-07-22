@@ -1,7 +1,15 @@
 class ProductsController < ApplicationController
+  include Pagy::Backend
   def index
+    items_per_page = params[:items] ? params[:items].to_i : 12  # Permite cambiar el número de items por página con un parámetro
     products = Product.with_attached_image.includes(:category).all
-    render json: products, status: :ok
+    @pagy, @products = pagy(products, items: items_per_page)
+    @pagination = pagy_metadata(@pagy)
+
+    render json: {
+      data: @products.as_json(include: { category: {} }, methods: [:image_url]),
+      pagination: @pagination
+    }, status: :ok
   end
 
   def show
