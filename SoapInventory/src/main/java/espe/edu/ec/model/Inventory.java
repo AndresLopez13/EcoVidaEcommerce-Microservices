@@ -58,6 +58,21 @@ public class Inventory {
         this.warehouse = warehouse;
     }
 
+    public int getStock() {
+        return stock;
+    }
+
+    public void setStock(int stock) {
+        this.stock = stock;
+    }
+
+    public int getStockMin() {
+        return stockMin;
+    }
+
+    public void setStockMin(int stockMin) {
+        this.stockMin = stockMin;
+    }
 
     public Date getCreatedAt() {
         return createdAt;
