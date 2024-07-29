@@ -41,6 +41,25 @@ class ProductsController < ApplicationController
     render json: { message: 'Product deleted' }, status: :ok
   end
 
+  def search
+    items_per_page = params[:items] ? params[:items].to_i : 12
+    search_term = params[:product_name]
+
+    products = Product.with_attached_image.includes(:category)
+
+    if search_term.present?
+      products = products.where("name ILIKE ?", "%#{search_term}%")
+    end
+
+    @pagy, @products = pagy(products, items: items_per_page)
+    @pagination = pagy_metadata(@pagy)
+
+    render json: {
+      data: @products.as_json(include: { category: {} }, methods: [:image_url]),
+      pagination: @pagination
+    }, status: :ok
+  end
+
   private
 
   def product_params

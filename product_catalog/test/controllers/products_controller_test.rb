@@ -45,4 +45,20 @@ class ProductsControllerTest < ActionDispatch::IntegrationTest
     assert_response :success
     assert_equal "Product deleted", JSON.parse(@response.body)["message"]
   end
+
+  test "should search products" do
+    get search_products_url(product_name: "Shampoo"), as: :json
+    assert_response :success
+
+    response_body = JSON.parse(@response.body)
+    assert_equal 1, response_body['data'].length
+    assert_equal "Shampoo Orgánico de Lavanda", response_body['data'][0]['name']
+
+    get search_products_url(product_name: "Cepillo"), as: :json
+    assert_response :success
+
+    response_body = JSON.parse(@response.body)
+    assert_equal 1, response_body['data'].length
+    assert_equal "Cepillo de Dientes de Bambú", response_body['data'][0]['name']
+  end
 end
