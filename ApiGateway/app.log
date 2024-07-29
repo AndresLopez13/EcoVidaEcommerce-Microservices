@@ -89,3 +89,20 @@
 2024-07-28 23:06:48 [WARNING] Redirigiendo a http://localhost:3000//categories/3 (DELETE)
 2024-07-28 23:07:06 [WARNING] Redirigiendo a http://localhost:3000//categories/3 (DELETE)
 2024-07-28 23:07:24 [WARNING] Redirigiendo a http://localhost:3000//categories
+2024-07-28 23:32:46 [WARNING] Creando endpoints
+2024-07-28 23:32:46 [WARNING] Rutas creadas
+2024-07-28 23:32:47 [WARNING] Creando endpoints
+2024-07-28 23:32:47 [WARNING] Rutas creadas
+2024-07-28 23:34:02 [WARNING] Redirigiendo a http://localhost:3000//products/search/test (GET)
+2024-07-28 23:34:11 [WARNING] Redirigiendo a http://localhost:3000//products
+2024-07-28 23:35:03 [WARNING] Redirigiendo a http://localhost:3000//products/search/test (GET)
+2024-07-28 23:38:36 [WARNING] Creando endpoints
+2024-07-28 23:38:37 [ERROR] Ruta no valida: /products/search/
+2024-07-28 23:38:37 [WARNING] Rutas creadas
+2024-07-28 23:38:37 [WARNING] Creando endpoints
+2024-07-28 23:38:37 [ERROR] Ruta no valida: /products/search/
+2024-07-28 23:38:37 [WARNING] Rutas creadas
+2024-07-28 23:39:02 [WARNING] Creando endpoints
+2024-07-28 23:39:02 [WARNING] Rutas creadas
+2024-07-28 23:39:02 [WARNING] Creando endpoints
+2024-07-28 23:39:02 [WARNING] Rutas creadas

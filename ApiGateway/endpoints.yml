@@ -37,6 +37,8 @@ microservices:
         method: GET
       - route: /products/{id}
         method: DELETE
+      - route: /products/search/{product_name}
+        method: GET
   Pedidos:
     port: 5000
     endpoints: 
