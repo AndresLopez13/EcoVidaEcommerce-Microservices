@@ -2,13 +2,18 @@ import axios from "axios";
 import { HOST, PAYPAL_API_CLIENT, PAYPAL_API_SECRET, PAYPAL_API } from "../config.js";
 
 export const createOrder = async(req, res) => {
+    const { amount } = req.body;
+
+    if (!amount || isNaN(amount) || amount <= 0) {
+        return res.status(400).send('Invalid amount');
+    }
     const order = {
         intent: "CAPTURE",
         purchase_units: [
             {
                 amount: {
                     currency_code: "USD",
-                    value: "100.00",
+                    value: amount,
                 },
             },
         ],
