@@ -8,6 +8,7 @@ import {
 } from "../ui/card";
 import { Button } from "../ui/button";
 import { Input } from "../ui/input";
+import { useState } from "react";
 
 interface Product {
   id: number;
@@ -42,6 +43,10 @@ interface ProductProps {
 }
 
 export default function Product({ product, handleAddToCart }: ProductProps) {
+  const [quantity, setQuantity] = useState(1);
+  const handleQuantityChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+    setQuantity(Number(event.target.value));
+  };
   return (
     <Card key={product.id}>
       <CardHeader>
@@ -55,7 +60,12 @@ export default function Product({ product, handleAddToCart }: ProductProps) {
       <CardFooter className="flex justify-center items-center gap-4">
         <div className="flex justify-center items-center w-1/2 gap-4">
           <span>Cantidad: </span>
-          <Input type="number" value={1} className="w-1/2" />
+          <Input
+            type="number"
+            value={quantity}
+            onChange={handleQuantityChange}
+            className="w-1/2"
+          />
         </div>
         <Button
           className="w-1/2"
@@ -64,7 +74,7 @@ export default function Product({ product, handleAddToCart }: ProductProps) {
               id: product.id,
               name: product.name,
               price: product.price,
-              quantity: 1,
+              quantity: quantity,
             });
           }}
         >

@@ -15,7 +15,6 @@ export default function Navbar() {
   const navItems = [
     { id: 1, text: "Inicio" , href: "/"},
     { id: 2, text: "Productos", href: "/products" },
-    { id: 3, text: "Carrito", href: "/cart" },
     { id: 4, text: "Salir", href: "/logout" },
     // { id: 5, text: "About" },
   ];

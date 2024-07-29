@@ -9,10 +9,10 @@ interface Product {
   };
 }
 
-export async function fetchProducts() {
+export async function fetchProducts(page = 1, items = 2) {
   try {
     const response = await fetch(
-      "http://localhost:3000/products?items=2&page=1"
+      `http://localhost:3000/products?items=${items}&page=${page}`
     );
 
     // Verifica si la respuesta es exitosa
