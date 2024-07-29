@@ -58,7 +58,7 @@ export default function CartPage() {
               <TableCell className="text-center">1</TableCell>
               <TableCell className="text-right">${product.price} USD</TableCell>
               <TableCell className="text-red-500 hover:underline cursor-pointer text-center">
-                <Button className="bg-red-500">Eliminar</Button>
+                <Button className="bg-red-500" onClick={()=>handleRemoveFromCart(product.id)}>Eliminar</Button>
               </TableCell>
             </TableRow>
           ))}
