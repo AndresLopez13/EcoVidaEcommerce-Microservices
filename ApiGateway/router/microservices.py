@@ -138,7 +138,8 @@ for servicio, info_servicio in data["microservices"].items():
         metodo = endpoint["method"]
 
         routes["/api"+ruta] = {
-            "endpoint": f'http://{servicio.lower()}:{puerto}/api{ruta}', "method": metodo}
+            "endpoint": f'http://localhost:{puerto}/{ruta}', "method": metodo}
+            # "endpoint": f'http://{servicio.lower()}:{puerto}/api{ruta}', "method": metodo}
 
         valida, param = validate_route(ruta)
 

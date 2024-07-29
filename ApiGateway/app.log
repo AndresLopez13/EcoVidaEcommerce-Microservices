@@ -51,3 +51,41 @@
 2024-07-28 21:12:15 [WARNING] Rutas creadas
 2024-07-28 21:14:50 [WARNING] Redirigiendo a http://productcatalog:3000/api/categories
 2024-07-28 21:14:53 [ERROR]  Redirection error: 503[Errno 11001] getaddrinfo failed  Target: http://productcatalog:3000/api/categories , Method: GET
+2024-07-28 21:37:13 [WARNING] Creando endpoints
+2024-07-28 21:37:13 [WARNING] Rutas creadas
+2024-07-28 21:37:14 [WARNING] Creando endpoints
+2024-07-28 21:37:14 [WARNING] Rutas creadas
+2024-07-28 21:39:09 [WARNING] Redirigiendo a http://localhost:3000/api/categories
+2024-07-28 21:42:14 [WARNING] Creando endpoints
+2024-07-28 21:42:14 [WARNING] Rutas creadas
+2024-07-28 21:42:15 [WARNING] Creando endpoints
+2024-07-28 21:42:15 [WARNING] Rutas creadas
+2024-07-28 21:42:43 [WARNING] Redirigiendo a http://localhost:3000//categories
+2024-07-28 21:43:25 [WARNING] Redirigiendo a http://localhost:3000//products/19 (DELETE)
+2024-07-28 21:51:00 [WARNING] Creando endpoints
+2024-07-28 21:51:00 [WARNING] Rutas creadas
+2024-07-28 21:51:06 [WARNING] Creando endpoints
+2024-07-28 21:51:06 [WARNING] Rutas creadas
+2024-07-28 21:51:11 [WARNING] Creando endpoints
+2024-07-28 21:51:11 [WARNING] Rutas creadas
+2024-07-28 22:39:44 [WARNING] Creando endpoints
+2024-07-28 22:39:44 [WARNING] Rutas creadas
+2024-07-28 22:39:45 [WARNING] Creando endpoints
+2024-07-28 22:39:45 [WARNING] Rutas creadas
+2024-07-28 22:43:03 [WARNING] Redirigiendo a http://localhost:3000//products
+2024-07-28 22:43:26 [WARNING] Redirigiendo a http://localhost:3000//products/26 (DELETE)
+2024-07-28 22:43:52 [WARNING] Redirigiendo a http://localhost:3000//products/25 (DELETE)
+2024-07-28 22:44:45 [WARNING] Redirigiendo a http://localhost:3000//products/24 (DELETE)
+2024-07-28 22:45:34 [WARNING] Redirigiendo a http://localhost:3000//categories
+2024-07-28 22:45:53 [WARNING] Redirigiendo a http://localhost:3000//categories/4 (DELETE)
+2024-07-28 22:45:58 [WARNING] Redirigiendo a http://localhost:3000//categories/3 (DELETE)
+2024-07-28 23:02:37 [WARNING] Creando endpoints
+2024-07-28 23:02:38 [WARNING] Rutas creadas
+2024-07-28 23:02:38 [WARNING] Creando endpoints
+2024-07-28 23:02:38 [WARNING] Rutas creadas
+2024-07-28 23:04:42 [WARNING] Redirigiendo a http://localhost:3000//products
+2024-07-28 23:06:40 [WARNING] Redirigiendo a http://localhost:3000//categories/4 (DELETE)
+2024-07-28 23:06:45 [WARNING] Redirigiendo a http://localhost:3000//categories/3 (DELETE)
+2024-07-28 23:06:48 [WARNING] Redirigiendo a http://localhost:3000//categories/3 (DELETE)
+2024-07-28 23:07:06 [WARNING] Redirigiendo a http://localhost:3000//categories/3 (DELETE)
+2024-07-28 23:07:24 [WARNING] Redirigiendo a http://localhost:3000//categories
