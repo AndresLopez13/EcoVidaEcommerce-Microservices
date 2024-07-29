@@ -1,0 +1,54 @@
+microservices:
+  User:
+    port: 8080
+    endpoints:
+      - route: /getuser
+        method: GET
+      - route: /updateuserimage
+        method: PATCH
+      - route: /uploaduserimage
+        method: PATCH
+      - route: /createuser
+        method: POST
+      - route: /updateuser
+        method: PUT
+      - route: /deleteuser/{user_id}
+        method: DELETE
+  ProductCatalog: 
+    port: 3000
+    endpoints: 
+      - route: /categories
+        method: POST
+      - route: /categories/{id}
+        method: PUT
+      - route: /categories/{id}
+        method: GET
+      - route: /categories
+        method: GET
+      - route: /categories/{id}
+        method: DELETE
+      - route: /products
+        method: POST
+      - route: /products/{id}
+        method: PUT
+      - route: /products/{id}
+        method: GET
+      - route: /products
+        method: GET
+      - route: /products/{id}
+        method: DELETE
+      - route: /products/search/{product_name}
+        method: GET
+  Pedidos:
+    port: 5000
+    endpoints: 
+      - route: /pedidos/{pedido_id}
+        method: GET
+      - route: /pedidos
+        method: POST
+      - route: /pedidos
+        method: GET
+      - route: /pedidos/{pedido_id}
+        method: PUT
+      - route: /pedidos/{pedido_id}
+        method: DELETE

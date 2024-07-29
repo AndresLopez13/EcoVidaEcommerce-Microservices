@@ -1,0 +1,108 @@
+2024-07-28 19:58:32 [WARNING] Creando endpoints
+2024-07-28 19:58:32 [WARNING] Rutas creadas
+2024-07-28 19:58:34 [WARNING] Creando endpoints
+2024-07-28 19:58:34 [WARNING] Rutas creadas
+2024-07-28 20:09:40 [WARNING] Creando endpoints
+2024-07-28 20:09:40 [WARNING] Rutas creadas
+2024-07-28 20:09:42 [WARNING] Creando endpoints
+2024-07-28 20:09:42 [WARNING] Rutas creadas
+2024-07-28 20:09:56 [WARNING] Creando endpoints
+2024-07-28 20:09:56 [WARNING] Rutas creadas
+2024-07-28 20:09:57 [WARNING] Creando endpoints
+2024-07-28 20:09:57 [WARNING] Rutas creadas
+2024-07-28 20:16:25 [WARNING] Creando endpoints
+2024-07-28 20:16:25 [WARNING] Rutas creadas
+2024-07-28 20:17:09 [WARNING] Creando endpoints
+2024-07-28 20:17:09 [WARNING] Rutas creadas
+2024-07-28 20:18:11 [WARNING] Creando endpoints
+2024-07-28 20:18:11 [WARNING] Rutas creadas
+2024-07-28 20:18:13 [WARNING] Creando endpoints
+2024-07-28 20:18:13 [WARNING] Rutas creadas
+2024-07-28 20:18:34 [WARNING] Creando endpoints
+2024-07-28 20:18:34 [WARNING] Rutas creadas
+2024-07-28 20:19:08 [WARNING] Creando endpoints
+2024-07-28 20:19:08 [WARNING] Rutas creadas
+2024-07-28 20:54:46 [WARNING] Creando endpoints
+2024-07-28 20:54:46 [WARNING] Rutas creadas
+2024-07-28 20:59:31 [WARNING] Creando endpoints
+2024-07-28 20:59:31 [WARNING] Rutas creadas
+2024-07-28 20:59:33 [WARNING] Creando endpoints
+2024-07-28 20:59:33 [WARNING] Rutas creadas
+2024-07-28 21:00:58 [WARNING] Error:'Collection' object is not callable. If you meant to call the 'cursor' method on a 'Database' object it is failing because no such method exists.
+2024-07-28 21:02:42 [WARNING] Creando endpoints
+2024-07-28 21:02:42 [WARNING] Rutas creadas
+2024-07-28 21:02:45 [WARNING] Creando endpoints
+2024-07-28 21:02:45 [WARNING] Rutas creadas
+2024-07-28 21:02:48 [WARNING] Creando endpoints
+2024-07-28 21:02:48 [WARNING] Rutas creadas
+2024-07-28 21:02:50 [WARNING] Creando endpoints
+2024-07-28 21:02:50 [WARNING] Rutas creadas
+2024-07-28 21:02:58 [WARNING] Creando endpoints
+2024-07-28 21:02:58 [WARNING] Rutas creadas
+2024-07-28 21:03:17 [WARNING] Creando endpoints
+2024-07-28 21:03:17 [WARNING] Rutas creadas
+2024-07-28 21:03:19 [WARNING] Creando endpoints
+2024-07-28 21:03:19 [WARNING] Rutas creadas
+2024-07-28 21:06:00 [WARNING] Error:'Collection' object is not callable. If you meant to call the 'cursor' method on a 'Database' object it is failing because no such method exists.
+2024-07-28 21:06:32 [WARNING] Error:'Collection' object is not callable. If you meant to call the 'cursor' method on a 'Database' object it is failing because no such method exists.
+2024-07-28 21:12:13 [WARNING] Creando endpoints
+2024-07-28 21:12:13 [WARNING] Rutas creadas
+2024-07-28 21:12:15 [WARNING] Creando endpoints
+2024-07-28 21:12:15 [WARNING] Rutas creadas
+2024-07-28 21:14:50 [WARNING] Redirigiendo a http://productcatalog:3000/api/categories
+2024-07-28 21:14:53 [ERROR]  Redirection error: 503[Errno 11001] getaddrinfo failed  Target: http://productcatalog:3000/api/categories , Method: GET
+2024-07-28 21:37:13 [WARNING] Creando endpoints
+2024-07-28 21:37:13 [WARNING] Rutas creadas
+2024-07-28 21:37:14 [WARNING] Creando endpoints
+2024-07-28 21:37:14 [WARNING] Rutas creadas
+2024-07-28 21:39:09 [WARNING] Redirigiendo a http://localhost:3000/api/categories
+2024-07-28 21:42:14 [WARNING] Creando endpoints
+2024-07-28 21:42:14 [WARNING] Rutas creadas
+2024-07-28 21:42:15 [WARNING] Creando endpoints
+2024-07-28 21:42:15 [WARNING] Rutas creadas
+2024-07-28 21:42:43 [WARNING] Redirigiendo a http://localhost:3000//categories
+2024-07-28 21:43:25 [WARNING] Redirigiendo a http://localhost:3000//products/19 (DELETE)
+2024-07-28 21:51:00 [WARNING] Creando endpoints
+2024-07-28 21:51:00 [WARNING] Rutas creadas
+2024-07-28 21:51:06 [WARNING] Creando endpoints
+2024-07-28 21:51:06 [WARNING] Rutas creadas
+2024-07-28 21:51:11 [WARNING] Creando endpoints
+2024-07-28 21:51:11 [WARNING] Rutas creadas
+2024-07-28 22:39:44 [WARNING] Creando endpoints
+2024-07-28 22:39:44 [WARNING] Rutas creadas
+2024-07-28 22:39:45 [WARNING] Creando endpoints
+2024-07-28 22:39:45 [WARNING] Rutas creadas
+2024-07-28 22:43:03 [WARNING] Redirigiendo a http://localhost:3000//products
+2024-07-28 22:43:26 [WARNING] Redirigiendo a http://localhost:3000//products/26 (DELETE)
+2024-07-28 22:43:52 [WARNING] Redirigiendo a http://localhost:3000//products/25 (DELETE)
+2024-07-28 22:44:45 [WARNING] Redirigiendo a http://localhost:3000//products/24 (DELETE)
+2024-07-28 22:45:34 [WARNING] Redirigiendo a http://localhost:3000//categories
+2024-07-28 22:45:53 [WARNING] Redirigiendo a http://localhost:3000//categories/4 (DELETE)
+2024-07-28 22:45:58 [WARNING] Redirigiendo a http://localhost:3000//categories/3 (DELETE)
+2024-07-28 23:02:37 [WARNING] Creando endpoints
+2024-07-28 23:02:38 [WARNING] Rutas creadas
+2024-07-28 23:02:38 [WARNING] Creando endpoints
+2024-07-28 23:02:38 [WARNING] Rutas creadas
+2024-07-28 23:04:42 [WARNING] Redirigiendo a http://localhost:3000//products
+2024-07-28 23:06:40 [WARNING] Redirigiendo a http://localhost:3000//categories/4 (DELETE)
+2024-07-28 23:06:45 [WARNING] Redirigiendo a http://localhost:3000//categories/3 (DELETE)
+2024-07-28 23:06:48 [WARNING] Redirigiendo a http://localhost:3000//categories/3 (DELETE)
+2024-07-28 23:07:06 [WARNING] Redirigiendo a http://localhost:3000//categories/3 (DELETE)
+2024-07-28 23:07:24 [WARNING] Redirigiendo a http://localhost:3000//categories
+2024-07-28 23:32:46 [WARNING] Creando endpoints
+2024-07-28 23:32:46 [WARNING] Rutas creadas
+2024-07-28 23:32:47 [WARNING] Creando endpoints
+2024-07-28 23:32:47 [WARNING] Rutas creadas
+2024-07-28 23:34:02 [WARNING] Redirigiendo a http://localhost:3000//products/search/test (GET)
+2024-07-28 23:34:11 [WARNING] Redirigiendo a http://localhost:3000//products
+2024-07-28 23:35:03 [WARNING] Redirigiendo a http://localhost:3000//products/search/test (GET)
+2024-07-28 23:38:36 [WARNING] Creando endpoints
+2024-07-28 23:38:37 [ERROR] Ruta no valida: /products/search/
+2024-07-28 23:38:37 [WARNING] Rutas creadas
+2024-07-28 23:38:37 [WARNING] Creando endpoints
+2024-07-28 23:38:37 [ERROR] Ruta no valida: /products/search/
+2024-07-28 23:38:37 [WARNING] Rutas creadas
+2024-07-28 23:39:02 [WARNING] Creando endpoints
+2024-07-28 23:39:02 [WARNING] Rutas creadas
+2024-07-28 23:39:02 [WARNING] Creando endpoints
+2024-07-28 23:39:02 [WARNING] Rutas creadas
