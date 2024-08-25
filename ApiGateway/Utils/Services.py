@@ -17,7 +17,7 @@ def search_user(user_name: str, db=True) -> Union[UserDB, User]:
     try:
         db_connection = Database.get_connection()
         user_collection = db_connection.user_collection  # Reemplaza "user_collection" con el nombre de tu colección
-        print("ok")
+        # print("ok")
 
         user_document = user_collection.find_one({"user_name": user_name})
 

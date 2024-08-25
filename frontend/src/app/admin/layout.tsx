@@ -1,12 +1,9 @@
+// "use client";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import { Separator } from "@/components/ui/separator";
-import {
-  ResizableHandle,
-  ResizablePanel,
-  ResizablePanelGroup,
-} from "@/components/ui/resizable";
 import SideBar from "@/components/custom/sidebar";
+
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -20,6 +17,7 @@ export default function AdminLayout({
 }: {
   children: React.ReactNode;
 }) {
+
   return (
     <>
       <div>
