@@ -29,7 +29,7 @@ async def login(response: Response, form: OAuth2PasswordRequestForm = Depends())
     """
     try: 
         user: UserDB = search_user(form.username)
-        print(form.username)
+        print("okiii")
 
         if not crypt.verify(form.password, user.user_password):
             raise HTTPException(
@@ -45,7 +45,7 @@ async def login(response: Response, form: OAuth2PasswordRequestForm = Depends())
         encoded_token = jwt.encode(access_token, SECRET, algorithm=ALGORITHM)
 
         response = JSONResponse(
-            content={"access_token": encoded_token, "token_type": "bearer"},
+            content={"access_token": encoded_token, "token_type": "bearer" ,"user":user.dict(exclude={"user_password"})},
             status_code=status.HTTP_200_OK
         )
 
